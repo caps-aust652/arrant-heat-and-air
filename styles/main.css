@@ -1,5 +1,9 @@
 header {
   position: sticky;
+  background-color: white;
+  
+  display: flex;
+  height: 20svh;
   top: 0;
 }
 section {
