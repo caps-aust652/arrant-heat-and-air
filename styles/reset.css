@@ -1,9 +1,14 @@
-/* RESET */
+/* ------ RESET FUNCTIONS ------*/
+/* BOX SIZING */
+*, *::before, *::after {
+  /* Sets all elements to have the max box size of their border box*/
+  box-sizing: border-box;
+}
+
+/* MARGIN AND PADDING*/
 * {
   /* Sets all elements margins to zero*/
   margin: 0;
   /* Sets all elements paddings to zero*/
   padding: 0;
-  /* Sets all elements to have the max box size of their border box*/
-  box-sizing: border-box;
 }
