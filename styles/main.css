@@ -67,7 +67,7 @@ section {
   z-index: -1;
 }
 
-.services-track {
+#services-track {
   display: flex;
   flex-direction: row;
   gap: 16px;
@@ -77,6 +77,10 @@ section {
 
 .service-card {
   border: thin solid blue;
+  display: flex;
+  gap: 4px;
+  align-items: space-between;
+  justify-content: stretch;
 }
 
 #hero {
