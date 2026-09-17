@@ -92,7 +92,6 @@ section {
 }
 
 .service-card {
-  border: thin solid blue;
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
