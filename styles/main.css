@@ -79,8 +79,8 @@ section {
   border: thin solid blue;
   display: flex;
   gap: 4px;
-  align-items: space-between;
-  justify-content: stretch;
+  justify-content: space-between;
+  flex: 1;
 }
 
 #hero {
