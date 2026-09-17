@@ -90,6 +90,7 @@ section {
 @media screen and (max-width: 600px) {
   #services-track {
     max-width: 100vw;
+    flex-wrap: wrap;
   }
 }
 
