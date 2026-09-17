@@ -82,10 +82,12 @@ section {
 
 .service-card {
   border: thin solid blue;
+  border-radius: 1rem;
   display: flex;
   gap: 4px;
   justify-content: space-between;
   flex: 1;
+  min-height: 60svh;
 }
 @media screen and (max-width: 600px) {
   #services-track {
