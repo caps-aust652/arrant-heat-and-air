@@ -6,6 +6,11 @@ header {
   height: 20svh;
   top: 0;
 }
+
+footer {
+  min-height: 30svh;
+}
+
 section {
   position: relative;
 }
