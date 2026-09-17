@@ -91,6 +91,14 @@ section {
   min-height: 60svh;
 }
 
+.service-header {
+  height: 40%;
+}
+
+.service-content {
+  height: 60%;
+}
+
 @media screen and (max-width: 600px) {
   #services-track {
     max-width: 100vw;
