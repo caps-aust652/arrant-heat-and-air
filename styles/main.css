@@ -84,11 +84,13 @@ section {
   border: thin solid blue;
   border-radius: 1rem;
   display: flex;
+  flex-direction: column;
   gap: 4px;
   justify-content: space-between;
   flex: 1;
   min-height: 60svh;
 }
+
 @media screen and (max-width: 600px) {
   #services-track {
     max-width: 100vw;
