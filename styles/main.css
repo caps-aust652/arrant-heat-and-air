@@ -1,3 +1,9 @@
+:root {
+  --padding-s: 0.5rem;
+  --padding-m: 1rem;
+  --padding-l: 1.5rem;
+}
+
 header {
   position: sticky;
   background-color: white;
@@ -5,14 +11,18 @@ header {
   display: flex;
   height: 20svh;
   top: 0;
+
+  padding: var(--padding-l);
 }
 
 footer {
   min-height: 30svh;
+  padding: var(--padding-l);
 }
 
 section {
   position: relative;
+  padding: var(--padding-l);
 }
 .flex-row {
   display: flex;
@@ -81,6 +91,7 @@ section {
 #hero-content {
   min-height: 60svh;
   min-width: 80vw;
+  padding: var(--padding-m);
 }
 
 #services-track {
@@ -89,6 +100,7 @@ section {
   gap: 16px;
   justify-content: space-between;
   align-items: stretch;
+  padding: var(--padding-m);
 }
 
 .service-card {
@@ -99,14 +111,17 @@ section {
   justify-content: space-between;
   flex: 1;
   min-height: 60svh;
+  padding: var(--padding-m);
 }
 
 .service-header {
   height: 40%;
+  padding: var(--padding-m);
 }
 
 .service-content {
   height: 60%;
+  padding: var(--padding-m);
 }
 
 @media screen and (max-width: 600px) {
