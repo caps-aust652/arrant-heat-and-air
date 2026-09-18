@@ -13,11 +13,14 @@ header {
   top: 0;
 
   padding: var(--padding-l);
+
+  z-index: 1000;
 }
 
 footer {
   min-height: 30svh;
   padding: var(--padding-l);
+  z-index: 1000;
 }
 
 section {
