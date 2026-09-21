@@ -87,6 +87,7 @@ section {
 
 img:not([src]) {
   content: url('../assets/placeholder.svg');
+  max-height: 100%;
 }
 
 .arrant-gradient {
