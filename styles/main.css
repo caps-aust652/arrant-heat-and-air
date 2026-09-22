@@ -81,13 +81,10 @@ section {
   position: absolute;
   top: 0;
   left: 0;
-
-  z-index: -1;
 }
 
 img:not([src]) {
   content: url('../assets/placeholder.svg');
-  max-height: 100%;
 }
 
 .arrant-gradient {
@@ -124,8 +121,18 @@ img:not([src]) {
 }
 
 .service-header {
+  position: relative;
   height: 40%;
   padding: var(--padding-m);
+}
+
+.service-image {
+  z-index: 2;
+}
+
+.service-title {
+  position: relative;
+  z-index: 3;
 }
 
 .service-content {
