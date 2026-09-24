@@ -93,6 +93,36 @@ img:not([src]) {
   background: linear-gradient(#ffffff, #ffffff) padding-box, linear-gradient(45deg, #5bbed3, #58bcbe, #db492, #65bd81, #8b9e4f, #c5bf71, #d2a727, #f28920, #fc3d23, #f0222c) border-box;
 }
 
+.arrant-metallic-gradient {
+
+  background-image: 
+    radial-gradient(ellipse at 10px 10px, #939598 0%, #4a4b4d 17%, #d1d2d4 34%, #5c5d5f 51%, #3a3b3c 68%),
+    radial-gradient(ellipse at calc(100% - 10px) 10px, #939598 0%, #4a4b4d 17%, #d1d2d4 34%, #5c5d5f 51%, #3a3b3c 68%),
+    radial-gradient(ellipse at 10px calc(100% - 10px), #939598 0%, #4a4b4d 17%, #d1d2d4 34%, #5c5d5f 51%, #3a3b3c 68%),
+    radial-gradient(ellipse at calc(100% - 10px) calc(100% - 10px), #939598 0%, #4a4b4d 17%, #d1d2d4 34%, #5c5d5f 51%, #3a3b3c 68%),
+    linear-gradient(90deg, #3a3b3c, #5c5d5f, #d1d2d4, #4a4b4d, #939598),
+    linear-gradient(270deg, #3a3b3c, #5c5d5f, #d1d2d4, #4a4b4d, #939598),
+    linear-gradient(180deg, #3a3b3c, #5c5d5f, #d1d2d4, #4a4b4d, #939598),
+    linear-gradient(0deg, #3a3b3c, #5c5d5f, #d1d2d4, #4a4b4d, #939598);
+
+  background-size:
+    10px 10px,
+    10px 10px,
+    10px 10px,
+    10px 10px,
+    10px 100%,
+    10px 100%,
+    100% 10px,
+    100% 10px;
+
+  background-position:
+    top left, top right, bottom left, bottom right,
+    center left, center right, top center, bottom center;
+
+  background-repeat: no-repeat;
+    
+}
+
 #hero-content {
   min-height: 60svh;
   min-width: 80vw;
