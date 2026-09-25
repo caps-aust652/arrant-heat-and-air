@@ -129,6 +129,29 @@ img:not([src]) {
   padding: var(--padding-m);
 }
 
+#introduction {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+#intro-img {
+  max-height: 90%;
+  width: auto;
+
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+#intro-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  height: 100%;
+  width: 100%;
+}
+
 #services-track {
   display: flex;
   flex-direction: row;
