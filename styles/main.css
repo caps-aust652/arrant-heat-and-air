@@ -163,7 +163,7 @@ img:not([src]) {
 
 .service-card {
   position: relative;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   display: flex;
   flex-direction: column;
   gap: 4px;
