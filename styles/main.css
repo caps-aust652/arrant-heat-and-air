@@ -90,7 +90,7 @@ img:not([src]) {
 .arrant-linear-gradient {
   border: 4px solid transparent;
 
-  background: linear-gradient(#ffffff, #ffffff) padding-box, linear-gradient(45deg, #5bbed3, #58bcbe, #db492, #65bd81, #8b9e4f, #c5bf71, #d2a727, #f28920, #fc3d23, #f0222c) border-box;
+  background: linear-gradient(#ffffff, #ffffff) padding-box, linear-gradient(45deg, #5bbed3, #58bcbe, #0db492, #65bd81, #8b9e4f, #c5bf71, #d2a727, #f28920, #fc3d23, #f0222c) border-box;
 }
 
 .arrant-metallic-gradient {
