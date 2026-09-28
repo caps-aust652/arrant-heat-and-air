@@ -206,6 +206,7 @@ img:not([src]) {
   position: relative;
   height: 40%;
   padding: var(--padding-m);
+  z-index: 2;
 }
 
 .service-image {
@@ -220,6 +221,7 @@ img:not([src]) {
 .service-content {
   height: 60%;
   padding: var(--padding-m);
+  z-index: 2;
 }
 
 .stream-container {
@@ -230,6 +232,7 @@ img:not([src]) {
   width: 100%;
   z-index: 1;
   pointer-events: none;
+  overflow: hidden;
 }
 
 .stream {
