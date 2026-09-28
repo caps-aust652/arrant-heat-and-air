@@ -200,6 +200,7 @@ img:not([src]) {
   height: clamp(400px, 30vw, 600px);
   width: clamp(300px, 40vw, 450px);
   padding: var(--padding-m);
+  overflow: hidden;
 }
 
 .service-header {
@@ -247,16 +248,16 @@ img:not([src]) {
 .animation-set-3 { animation: wave-flow 16s infinite linear; }
 /*#5bbed3, #58bcbe, #0db492, #65bd81, #8b9e4f, #c5bf71, #d2a727, #f28920, #fc3d23, #f0222c*/
 
-.offset-0 { left: 0%; top: -50%; z-index: 15;}
-.offset-1 { left: 0%; top: -40%; z-index: 14;}
-.offset-2 { left: 0%; top: -30%; z-index: 13;}
-.offset-3 { left: 0%; top: -20%; z-index: 12;}
-.offset-4 { left: 0%; top: -10%; z-index: 11;}
-.offset-5 { left: 0%; top: 0%; z-index: 10;}
-.offset-6 { left: 0%; top: 10%; z-index: 9;}
-.offset-7 { left: 0%; top: 20%; z-index: 8;}
-.offset-8 { left: 0%; top: 30%; z-index: 7;}
-.offset-9 { left: 0%; top: 40%; z-index: 6;}
+.offset-0 { left: 0%; top: 30%; }
+.offset-1 { left: 0%; top: 20%; }
+.offset-2 { left: 0%; top: 10%; }
+.offset-3 { left: 0%; top: 0%; }
+.offset-4 { left: 0%; top: -10%; }
+.offset-5 { left: 0%; top: -20%; }
+.offset-6 { left: 0%; top: -30%; }
+.offset-7 { left: 0%; top: -40%; }
+.offset-8 { left: 0%; top: -50%; }
+.offset-9 { left: 0%; top: -60%; }
 
 @media screen and (max-width: 600px) {
   #services-track {
