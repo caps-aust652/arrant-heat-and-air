@@ -238,7 +238,7 @@ img:not([src]) {
 
 .stream {
   position: absolute;
-  width: 200%;
+  height: 150%;
   aspect-ratio: 1 / 1;
   border-radius: 38% 62% 29% 71% / 58% 33% 67% 42%;
 }
