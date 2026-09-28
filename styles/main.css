@@ -1,4 +1,15 @@
 :root {
+  --sky-dive: #5bbed3;
+  --glacial-turquoise-shimmer: #58bcbe;
+  --mint-leaf: #0db492;
+  --clover-mist: #65bd81;
+  --bamboo-grass-green: #8b9e4f;
+  --linden-green: #c5bf71;
+  --brassy: #d2a727;
+  --vibrant-marigold: #f28920;
+  --strawberry-spinach-red: #fc3d23;
+  --microprose-red: #f0222c;
+  
   --padding-s: 0.5rem;
   --padding-m: 1rem;
   --padding-l: 1.5rem;
@@ -78,6 +89,17 @@ section {
 .bottom { bottom: 0; }
 .left { left: 0; }
 .right { right: 0; }
+
+.sd-bg { background-color: var(--sky-dive); }
+.gts-bg { background-color: var(--glacial-turqouise-shimmer); }
+.ml-bg { background-color: var(--mint-leaf); }
+.cm-bg { background-color: var(--clover-mist); }
+.bgg-bg { background-color: var(--bamboo-grass-green); }
+.lg-bg { background-color: var(--linden-green); }
+.b-bg { background-color: var(--brassy); }
+.vm-bg { background-color: var(--vibrant-marigold); }
+.ssr-bg { background-color: var(--strawberry-spinach-red); }
+.mr-bg { background-color: var(--microprose-red); }
 
 .background-img {
   width: 100%;
@@ -217,16 +239,21 @@ img:not([src]) {
   border-radius: 38% 62% 29% 71% / 58% 33% 67% 42%;
 }
 
-/* Example*/
-.green {
-  left: -15%;
-  top: -50%;
-  background-color: green;
-  border-radius: 38% 62% 29% 71% / 58% 33% 67% 42%;
-  z-index: 8;
-  transform: translateY(-80%);
-  animation: wave-flow 14s infinite linear;
-}
+.animation-set-1 { animation: wave-flow 12s infinite linear; }
+.animation-set-2 { animation: wave-flow 14s infinite linear; }
+.animation-set-3 { animation: wave-flow 16s infinite linear; }
+/*#5bbed3, #58bcbe, #0db492, #65bd81, #8b9e4f, #c5bf71, #d2a727, #f28920, #fc3d23, #f0222c*/
+
+.offset-0 { left: 0%; top: -50%; z-index: 15;}
+.offset-1 { left: 0%; top: -40%; z-index: 14;}
+.offset-2 { left: 0%; top: -30%; z-index: 13;}
+.offset-3 { left: 0%; top: -20%; z-index: 12;}
+.offset-4 { left: 0%; top: -10%; z-index: 11;}
+.offset-5 { left: 0%; top: 0%; z-index: 10;}
+.offset-6 { left: 0%; top: 10%; z-index: 9;}
+.offset-7 { left: 0%; top: 20%; z-index: 8;}
+.offset-8 { left: 0%; top: 30%; z-index: 7;}
+.offset-9 { left: 0%; top: 40%; z-index: 6;}
 
 @media screen and (max-width: 600px) {
   #services-track {
