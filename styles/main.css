@@ -13,6 +13,15 @@
   --padding-s: 0.5rem;
   --padding-m: 1rem;
   --padding-l: 1.5rem;
+
+  --font-text: clamp(1rem, 0.95rem + 0.25vw, 1.063rem);
+  --font-md: clamp(1.25rem, 1.18rem + 0.36vw, 1.333rem);
+  --font-lg: clamp(1.563rem, 1.45 rem + 0.54vw, 2.369rem);
+  --font-xl: clamp(1.953rem, 1.78rem + 0.86vw, 2.369rem);
+  --font-xxl: clamp(2.441rem, 2.19rem + 1.25vw, 3.157rem);
+
+  --lh-body: 1.6;
+  --lh-heading: 1.2;
 }
 
 header {
@@ -53,7 +62,7 @@ button {
   justify-content: center;
   padding: 12px 24px;
   font-family: inherit;
-  font-size: 16px;
+  font-size: var(--font-text);
   font-weight: 600;
   border-radius: 8px;
   border: 2px solid transparent;
@@ -238,6 +247,8 @@ img:not([src]) {
 .service-title {
   position: relative;
   z-index: 3;
+
+  text-size: var(--font-lg);
 }
 
 .service-content {
@@ -274,17 +285,16 @@ img:not([src]) {
 .animation-set-1 { animation: wave-flow 12s infinite linear; }
 .animation-set-2 { animation: wave-flow 14s infinite linear; }
 .animation-set-3 { animation: wave-flow 16s infinite linear; }
-/*#5bbed3, #58bcbe, #0db492, #65bd81, #8b9e4f, #c5bf71, #d2a727, #f28920, #fc3d23, #f0222c*/
 
-.offset-0 { left: 0%; top: -40%; }
+.offset-0 { left: -10%; top: -40%; }
 .offset-1 { left: 0%; top: -50%; }
-.offset-2 { left: 0%; top: -60%; }
-.offset-3 { left: 0%; top: -70%; }
+.offset-2 { left: 10%; top: -60%; }
+.offset-3 { left: -10%; top: -70%; }
 .offset-4 { left: 0%; top: -80%; }
-.offset-5 { left: 0%; top: -90%; }
-.offset-6 { left: 0%; top: -100%; }
+.offset-5 { left: 10%; top: -90%; }
+.offset-6 { left: -10%; top: -100%; }
 .offset-7 { left: 0%; top: -110%; }
-.offset-8 { left: 0%; top: -120%; }
+.offset-8 { left: 10%; top: -120%; }
 .offset-9 { left: 0%; top: -130%; }
 
 @media screen and (max-width: 600px) {
