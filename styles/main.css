@@ -69,6 +69,7 @@ button {
   box-shadow: 0 4px 6px -1px rgba(59, 130, 246, 0.3), 
               0 2px 4px -2px rgba(59, 130, 246, 0.2);
   cursor: pointer;
+  white-space: no-wrap;
   transition: all 0.15s ease-in-out;
 }
 
