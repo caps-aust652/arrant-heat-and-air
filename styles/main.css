@@ -132,6 +132,12 @@ button:active {
 .ssr-bg { background-color: var(--strawberry-spinach-red); }
 .mr-bg { background-color: var(--microprose-red); }
 
+.font-text { font-size: var(--font-text); }
+.font-md { font-size: var(--font-md); }
+.font-lg { font-size: var(--font-lg); }
+.font-xl { font-size: var(--font-xl); }
+.font-xxl { font-size: var(--font-xxl); }
+
 .background-img {
   width: 100%;
   height: 100%;
