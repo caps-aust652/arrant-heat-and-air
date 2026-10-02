@@ -30,6 +30,7 @@ header {
   
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   
   height: 20svh;
   top: 0;
@@ -41,8 +42,21 @@ header {
 }
 
 #header-nav {
+  position: relative;
+  padding: var(--padding-m);
+  
   display: flex;
-  flex-direction: row;
+  flex-direction: row;  
+}
+
+#header-nav a {
+  text-decoration: none;
+  color: grey;
+}
+
+#header-nav a:hover {
+  text-decoration: underline;
+  color: black;
 }
 
 footer {
