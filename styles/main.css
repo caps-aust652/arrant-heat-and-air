@@ -16,7 +16,7 @@
 
   --font-text: clamp(1rem, 0.95rem + 0.25vw, 1.063rem);
   --font-md: clamp(1.25rem, 1.18rem + 0.36vw, 1.333rem);
-  --font-lg: clamp(1.563rem, 1.45 rem + 0.54vw, 2.369rem);
+  --font-lg: clamp(1.563rem, 1.45rem + 0.54vw, 2.369rem);
   --font-xl: clamp(1.953rem, 1.78rem + 0.86vw, 2.369rem);
   --font-xxl: clamp(2.441rem, 2.19rem + 1.25vw, 3.157rem);
 
