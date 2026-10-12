@@ -223,10 +223,12 @@ img:not([src]) {
 
   justify-content: center;
   align-items: stretch;
+  width: 70vw;
 }
 
 #intro-content-right {
   display: relative;
+  width: 30vw;
 }
 
 #intro-img {
