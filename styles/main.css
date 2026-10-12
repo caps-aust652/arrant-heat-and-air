@@ -230,6 +230,10 @@ img:not([src]) {
 #intro-content-right {
   position: relative;
   width: 30vw;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #intro-img {
