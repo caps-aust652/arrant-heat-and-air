@@ -255,7 +255,7 @@ img:not([src]) {
 
 #services-track {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 16px;
   
   padding: var(--padding-m);
@@ -268,7 +268,7 @@ img:not([src]) {
   flex-direction: column;
   justify-content: space-between;
   height: clamp(400px, 30vw, 600px);
-  max-width: 450px;
+  max-width: 320px;
   padding: var(--padding-m);
   overflow: hidden;
 }
