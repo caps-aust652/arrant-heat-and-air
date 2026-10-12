@@ -215,7 +215,14 @@ img:not([src]) {
 #introduction {
   display: flex;
   flex-direction: row;
-  
+}
+
+#intro-content-left {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: stretch;
 }
 
 #intro-img {
