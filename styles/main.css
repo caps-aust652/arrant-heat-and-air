@@ -225,6 +225,10 @@ img:not([src]) {
   align-items: stretch;
 }
 
+#intro-content-right {
+  display: relative;
+}
+
 #intro-img {
   max-height: 90%;
   width: auto;
