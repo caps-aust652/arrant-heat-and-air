@@ -254,11 +254,10 @@ img:not([src]) {
 }
 
 #services-track {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 16px;
-  justify-content: space-between;
-  align-items: stretch;
+  
   padding: var(--padding-m);
 }
 
@@ -269,7 +268,7 @@ img:not([src]) {
   flex-direction: column;
   justify-content: space-between;
   height: clamp(400px, 30vw, 600px);
-  width: clamp(300px, 40vw, 450px);
+  max-width: 450px;
   padding: var(--padding-m);
   overflow: hidden;
 }
