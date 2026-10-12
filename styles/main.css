@@ -228,7 +228,7 @@ img:not([src]) {
 }
 
 #intro-content-right {
-  display: relative;
+  position: relative;
   width: 30vw;
 }
 
