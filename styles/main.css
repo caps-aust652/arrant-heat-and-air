@@ -214,27 +214,10 @@ img:not([src]) {
 }
 
 #introduction {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 5fr 3fr;
 }
 
-#intro-content-left {
-  display: flex;
-  flex-direction: column;
-
-  justify-content: center;
-  align-items: stretch;
-  width: 70vw;
-}
-
-#intro-content-right {
-  position: relative;
-  width: 30vw;
-
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 #intro-img {
   max-height: 90%;
