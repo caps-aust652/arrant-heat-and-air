@@ -214,6 +214,8 @@ img:not([src]) {
 }
 
 #introduction {
+  height: 50svh;
+  
   display: grid;
   grid-template-columns: 5fr 3fr;
 }
